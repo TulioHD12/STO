@@ -19,16 +19,11 @@
                 <li>
                     <a href="<?php echo SERVERURL; ?>registration/" >Regístrate</a>
                 </li>
-                <li>
-                    <a href="<?php echo SERVERURL; ?>signin/" >Login</a>
-                </li>
+                
                 <?php } ?>
             </ul>
         </nav>
-        <a href="<?php echo SERVERURL; ?>bag/" class="header-button full-box text-center" title="Carrito" >
-            <i class="fas fa-shopping-bag"></i>
-            <span class="badge bg-primary rounded-pill bag-count" >2</span>
-        </a>
+
 
         <?php if(isset($_SESSION['cargo_sto']) && ($_SESSION['cargo_sto']=="Administrador" || $_SESSION['cargo_sto']=="Cajero")){ ?>
             <div class="header-button full-box text-center" id="userMenu" data-mdb-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="<?php echo $_SESSION['usuario_sto']; ?>" >
