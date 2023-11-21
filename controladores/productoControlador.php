@@ -837,11 +837,10 @@
                                     }
                                 $tabla.='</div>
                                 <div class="text-center card-product-options" style="padding: 10px 0;">
-                                    <button type="button" class="btn btn-link btn-sm btn-rounded text-success" ><i class="fas fa-shopping-bag fa-fw"></i> &nbsp; Agregar</button>
-                                    &nbsp; &nbsp;
+                                   
                                     <a href="'.SERVERURL.'details/'.mainModel::encryption($rows['producto_id']).'/" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-box-open fa-fw"></i> &nbsp; Detalles</a>
                                     &nbsp; &nbsp;
-                                    <button type="button" class="btn btn-link btn-sm btn-rounded" ><i class="fas fa-heart fa-fw"></i></button>
+                                   
                                 </div>
                             </div>
                         </div>
