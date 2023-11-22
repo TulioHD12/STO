@@ -9,7 +9,7 @@
 	/*----------  
 	Nombre de la empresa o compañia -  Company or company name
 	----------*/
-	const COMPANY="Tulio's Corp";
+	const COMPANY="RIKIFIESTAS";
 
 
 	/*----------  Idioma - Language
@@ -42,7 +42,7 @@
 
 	/*----------  Direccion - Address  ----------*/
 	const COUNTRY="México";
-	const ADDRESS="Santiago Nayarit";
+	const ADDRESS="Tepic Nayarit";
 	
 
 	/*----------  Configuración de moneda - Currency Settings  ----------*/
@@ -59,7 +59,7 @@
 
 
 	/*----------  Tipos de unidades de productos - Types of product units ----------*/
-	const PRODUTS_UNITS=["Unidad","Libra","Kilogramo","Caja","Paquete","Lata","Galon","Botella","Tira","Sobre","Bolsa","Saco","Tarjeta","Otro"];
+	const PRODUTS_UNITS=["Unidad","Caja","Paquete","Botella","Otro"];
 
 	/*----------  Límite de tamaño de imágenes de productos en MB - Product image size limit in MB ----------*/
 	const COVER_PRODUCT=3;

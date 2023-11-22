@@ -1,4 +1,4 @@
-<header class="header full-box bg-white">
+<header class="header full-box bg-purple" style="background-color:#D700E5">
     <div class="header-brand full-box">
         <a href="<?php echo SERVERURL; ?>index/">
             <img src="<?php echo SERVERURL; ?>vistas/assets/img/logo.png" alt="<?php echo COMPANY; ?>" class="img-fluid">
